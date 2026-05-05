@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node --version)",
+      "PowerShell(python --version 2>$null)",
+      "PowerShell(python3 --version 2>$null)",
+      "PowerShell(Get-Command npx -ErrorAction SilentlyContinue)",
+      "PowerShell(C:\\\\Users\\\\jonal\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe --version)"
+    ]
+  }
+}
